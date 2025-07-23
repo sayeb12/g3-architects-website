@@ -241,6 +241,20 @@ main > section{
     font-weight: 400;
     margin-bottom: 50px;
 }
+
+/* Footer styles */
+footer{
+    max-width: 1440px;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 40px 20px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 /* Responsive Media Queries */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links, .teams, .features {
@@ -290,6 +304,10 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+
+    footer{
+        width: 100%;
     }
     
 }
